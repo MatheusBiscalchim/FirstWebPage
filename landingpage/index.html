@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Landing Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:wght@400;700&display=swap" 
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/variables.css">    
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+     <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false";><a href="#home">LOGO</a></h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false";>
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#grid-one">durable</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#grid-two">grid-two</a></li>
+            <li><a href="#pricing">pricing</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+     <div class="main-content intro-content">
+     <div class="intro-text-content">
+      <h2>Electricity For Less </h2>
+      <p>Use solar energy to power your home and reduce your dependence on the grid. Purchase solar at the lowest price of any national provider with Tesla's price match guarantee and take control of your monthly electricity bill. Schedule a virtual consultation with a Tesla Advisor to learn more.</p>
+     </div>
+     <div class="intro-img">
+        <img src="assets/img/sunlight.svg" alt="Mulher olhando para o sol com óculos na mão">
+     </div>
+     </div>   
+    </section>
+
+    <section id='intro' class="white-bg section">
+        <div id=div-solar class="main-content solar-panel-content">
+            <h2>Maximum Solar Production</h2>
+            <p>Tesla solar panels are designed to be highly efficient, delivering maximum solar production year-round, even on roofs with complicated angles.</p>
+            <p>Powered by Tesla Solar Inverter, your fully integrated system is safe and reliable.</p>
+          </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Sleek and Durable</h2>
+        <p class="grid-description">Our solar panels have battery-backup and durable — quietly converting sunlight to energy for decades to come. Integrated hardware and simple design achieve this by securing the panels close to your roof and to each other for a minimalist aesthetic.</p>
+      </p>
+  
+        <div class="grid">
+          <article>
+            <h3>Clean Aesthetic</h3>
+            <p>All-black panels and proprietary hardware keep the array close to your roof — no bulky racks, no large gaps.
+            </p>
+          </article>
+          <article> 
+            <h3>Maximum Durability</h3>
+            <p>Solar panels are designed with the durability of both the overall array and your roof in mind. Simple installation and proprietary hardware allow minimum impact to your roof.
+            </p>
+          </article>
+          <article>
+            <h3>Less Impact</h3>
+            <p>Rail-free mounting and interlocking brackets fasten panels together for one solid array.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>   
+    
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Uma breve descrição</p>
+      </p>
+  
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=1" alt="random image from lorem picsum" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=2" alt="random image from lorem picsum" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=3" alt="random image from lorem picsum" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=4" alt="random image from lorem picsum" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=5" alt="random image from lorem picsum" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360?r=6" alt="random image from lorem picsum" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Efficiency</h2>
+        <p class="grid-description">Our solar panels have battery-backup, maximum solar production with high efficiency, know how order and install.      </p>
+  
+        <div class="grid">
+          <article>
+            <h3>Home Battery Backup</h3>
+            <p>Your Powerwall can be bundled with solar, allowing you to generate clean energy and store it for use anytime—at night or during an outage.
+            </p>
+          </article>
+          <article> 
+            <h3>Order and Installation</h3>
+            <p>From permitting to powering on, we'll take care of everything. After you order, we'll gather remote aerial imagery of your home, design your system, take care of any necessary permits and schedule your installation. Chat with a Tesla Advisor or request a call to learn more.
+            </p>
+          </article>
+          <article>
+            <h3>Maximum Solar Production</h3>
+            <p>Tesla solar panels are designed to be highly efficient, delivering maximum solar production year-round, even on roofs with complicated angles. Powered by Tesla Solar Inverter, your fully integrated system is safe and reliable.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section> 
+
+
+    <section id='pricing' class="white-bg section">
+      <div class="main-content solar-panel-content">
+          <h2>Pricing</h2>
+          <p>Tesla solar panels are designed to be highly efficient, delivering maximum solar production year-round, even on roofs with complicated angles.</p>
+          <p>Powered by Tesla Solar Inverter, your fully integrated system is safe and reliable.</p>
+        
+          <div class="responsive-table">
+            <table>
+              <caption>Pricing table</caption>
+    
+              <thead>
+                <tr>
+                  <th>Title 1</th>
+                  <th>Title 2</th>
+                  <th>Title 3</th>
+                  <th>Title 4</th>
+                  <th>Title 5</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+                <tr>
+                  <td>Content 1</td>
+                  <td>Content 2</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                </tr>
+                <tr>
+                  <td>Content 1</td>
+                  <td>Content 2</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                </tr>
+                <tr>
+                  <td>Content 1</td>
+                  <td>Content 2</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                  <td>Content 3</td>
+                </tr>
+              </tbody>
+    
+              <tfoot>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Testando</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+         <h2>Electricity For Less </h2>
+         <p>Use solar energy to power your home and reduce your dependence on the grid. Purchase solar at the lowest price of any national provider with Tesla's price match guarantee and take control of your monthly electricity bill. Schedule a virtual consultation with a Tesla Advisor to learn more.</p>
+        </div>
+        <div class="intro-img">
+           <img src="assets/img/sunlight.svg" alt="Mulher olhando para o sol com óculos na mão">
+        </div>     
+        <div class="contact-form">
+           <fieldset class="form-grid">
+            <legend>Contact me</legend>
+
+            <div class="form-group">
+              <label for="first-name">First-name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last-name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Your e-mail">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message">
+              </textarea>  
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Send message</button> 
+            </div>
+
+           </fieldset>
+        </div>
+        </div>   
+       </section>
+
+       <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">❤</span> por Matheus Biscalchim</p>
+       </footer>
+
+       <a href="#home" class="back-to-top">➤</a>
+</body>
+</html>
